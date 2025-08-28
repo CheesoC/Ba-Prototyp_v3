@@ -16,8 +16,8 @@ const prototypeId = computed(() => {
     <div class="content-container">
       <h1 class="main-title">System 3 abgeschlossen!</h1>
       <p class="description">
-        Sie haben alle drei Systeme durchlaufen – vielen Dank für Ihre Teilnahme!
-            </p>
+        Sie haben alle drei Systeme durchlaufen – vielen Dank für Ihre Ausdauer.
+      </p>
       <div class="todo-section">
         <h2 class="todo-title">Was Sie jetzt tun sollen:</h2>
         <ul class="todo-list">
@@ -31,8 +31,9 @@ const prototypeId = computed(() => {
         <div class="disclaimer">
           <h3 class="disclaimer-title">Hinweis:</h3>
           <p class="disclaimer-text">
-          Wechseln Sie bitte JETZT zum Fragebogen 1 und beantworten Sie die Fragen zu System 1.  
-          Danach kehren Sie hierher zurück, um mit System 2 fortzufahren.
+          Wechseln Sie nun ein letztes Mal zurück zum Fragebogen.
+          Bitte beantworten Sie dort die Fragen zu System 3 sowie die abschließenden Fragen vollständig.
+          Ihre Teilnahme ist erst abgeschlossen, wenn Sie am Ende auf „Senden“ geklickt und den Fragebogen erfolgreich abgeschickt haben.
           </p>
         </div>
       </div>
@@ -44,5 +45,6 @@ const prototypeId = computed(() => {
     </div>
   </div>
 </template>
+
 
 <style scoped></style>
