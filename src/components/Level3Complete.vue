@@ -18,9 +18,9 @@ const prototypeId = computed(() => {
       <p class="description">
         Sie haben alle drei Systeme durchlaufen – vielen Dank für Ihre Teilnahme!
             </p>
-      <div class="task-section">
-        <h2 class="task-title">Was Sie jetzt tun sollen:</h2>
-        <ul class="task-list">
+      <div class="todo-section">
+        <h2 class="todo-title">Was Sie jetzt tun sollen:</h2>
+        <ul class="todo-list">
           <li>Nachdem Sie alle Stichpunkte gelesen haben, wechseln Sie bitte bei der expliziten Aufforderung zum Fragebogen 3.</li>
           <li>Sobald Sie den Fragebogen 3 ausgefüllt haben, klicken Sie bitte wieder auf "Weiter", um diesmal zur Abschlussseite zu gelangen.</li>
           <li>Auf der Abschlussseite erfolgen weitere Informationen zur Studie sowie wichtige abschließende Fragen zum gesamten Studienverlauf.</li>

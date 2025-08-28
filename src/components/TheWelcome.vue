@@ -27,9 +27,9 @@ const studyStartUrl = computed(() => {
          Sie testen heute drei Varianten einer digitalen Aufgabenumgebung. 
          <br>Wir nennen sie: System 1, System 2 und System 3.
         </p>
-      <div class="task-section">
-        <h2 class="task-title">Ihre Aufgabe:</h2>
-        <ul class="task-list">
+      <div class="todo-section">
+        <h2 class="todo-title">Ihre Aufgabe:</h2>
+        <ul class="todo-list">
           <li>Bitte nehmen Sie sich für jedes System und den jeweiligen Fragebogen Zeit und lesen Sie alles in Ruhe durch, bevor Sie fortfahren.</li>
           <li>Bearbeiten Sie bitte alle drei Systeme mit gleicher Aufmerksamkeit – jedes System enthält 6 Aufgaben.</li>
           <li>Nach der Bearbeitung eines Systems erscheint eine neue Seite, die Ihnen die weiteren Schritte erklärt.</li>

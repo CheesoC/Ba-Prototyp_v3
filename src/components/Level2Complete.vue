@@ -28,9 +28,9 @@ const nextUrl = computed(() => {
       <p class="description">
         Nur noch ein letztes System – vielen Dank für Ihre bisherige Teilnahme!
             </p>
-      <div class="task-section">
-        <h2 class="task-title">Was Sie jetzt tun sollen:</h2>
-        <ul class="task-list">
+      <div class="todo-section">
+        <h2 class="todo-title">Was Sie jetzt tun sollen:</h2>
+        <ul class="todo-list">
           <li>Nachdem Sie alle Stichpunkte gelesen haben, wechseln Sie bitte bei der expliziten Aufforderung zum Fragebogen 2.</li>
           <li>Füllen Sie den Fragebogen 2 bitte vollständig bis zum gekennzeichneten Abschnitt aus und drücken Sie auf "Weiter".</li>
           <li>Sobald alle Fragen zu System 2 beantwortet sind, erhalten Sie einen Hinweis, um zu dieser Seite zurückzukehren und mit System 3 fortzufahren.</li>
