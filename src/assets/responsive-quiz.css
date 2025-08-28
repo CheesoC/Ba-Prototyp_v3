@@ -268,6 +268,8 @@
   width: 100% !important;
   flex-shrink: 0 !important;
   box-sizing: border-box !important;
+  min-height: clamp(80px, 10vh, 120px) !important;
+  height: clamp(80px, 10vh, 120px) !important;
 }
 
 .level-one .result-section {
@@ -462,17 +464,38 @@
   }
   
   .level-one .result-section {
-    flex-direction: column !important;
-    gap: clamp(0.8rem, 2vh, 1.2rem) !important;
-    text-align: center !important;
+    flex-direction: row !important;
+    gap: clamp(0.5rem, 2vw, 1rem) !important;
+    text-align: left !important;
+    justify-content: space-between !important;
   }
   
   .level-one .success-feedback {
-    justify-content: center !important;
+    justify-content: flex-start !important;
+    flex: 1 !important;
   }
   
   .level-one .error-feedback {
-    justify-content: center !important;
+    justify-content: flex-start !important;
+    flex: 1 !important;
+  }
+  
+  .level-one .feedback-text {
+    font-size: clamp(0.75rem, 3vw, 1.1rem) !important;
+    line-height: 1.2 !important;
+  }
+  
+  .level-one .checkmark-icon,
+  .level-one .cross-icon {
+    width: clamp(25px, 4vw, 35px) !important;
+    height: clamp(25px, 4vw, 35px) !important;
+    font-size: clamp(1rem, 2.2vw, 1.4rem) !important;
+  }
+  
+  .level-one .footer-bar {
+    min-height: clamp(70px, 8vh, 90px) !important;
+    height: clamp(70px, 8vh, 90px) !important;
+    padding: clamp(0.6rem, 1.5vh, 1rem) clamp(0.8rem, 2vw, 1.5rem) !important;
   }
   
   .level-one .task-section {
@@ -484,20 +507,19 @@
   }
 }
 
-/* Very Narrow Screens - Single Column Layout */
+/* Very Narrow Screens - Keep 2x2 Grid Layout */
 @media (max-width: 400px) {
   .level-one .answer-options {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: repeat(4, auto) !important;
-    gap: clamp(0.8rem, 2vh, 1.2rem) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    gap: clamp(0.6rem, 1.5vh, 1rem) !important;
     max-width: 100% !important;
   }
   
   .level-one .answer-button {
-    padding: clamp(0.8rem, 1.5vh, 1rem) clamp(2rem, 8vw, 4rem) !important;
-    font-size: clamp(0.9rem, 4vw, 1.1rem) !important;
-    min-height: clamp(50px, 8vh, 60px) !important;
-    width: 100% !important;
+    padding: clamp(0.6rem, 1.2vh, 0.8rem) clamp(0.4rem, 2vw, 0.8rem) !important;
+    font-size: clamp(0.8rem, 3.5vw, 1rem) !important;
+    min-height: clamp(45px, 7vh, 55px) !important;
   }
   
   .level-one .content-area {
