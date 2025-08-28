@@ -26,7 +26,7 @@ const nextUrl = computed(() => {
     <div class="content-container">
       <h1 class="main-title">System 1 abgeschlossen!</h1>
       <p class="description">
-        Zwei Systeme liegen noch vor Ihnen – vielen Dank für Ihre bisherige Teilnahme!
+        Zwei Systeme liegen noch vor Ihnen – wir schätzen Ihre Mitarbeit sehr!
       </p>
       <div class="todo-section">
         <h2 class="todo-title">Was Sie jetzt tun sollen:</h2>
