@@ -40,8 +40,8 @@ const nextUrl = computed(() => {
         <div class="disclaimer">
           <h3 class="disclaimer-title">Hinweis:</h3>
           <p class="disclaimer-text">
-            Wechseln Sie bitte JETZT zum Fragebogen 1 und beantworten Sie die Fragen zu System 1.  
-            Danach kehren Sie hierher zurück, um mit System 2 fortzufahren.
+            Wechseln Sie bitte JETZT zum Fragebogen 2 und beantworten Sie die Fragen zu System 2.  
+            Danach kehren Sie hierher zurück, um mit System 3 fortzufahren.
           </p>
         </div>
       </div>
